@@ -6,4 +6,12 @@ Pre Requisite pacakges:
 - flask
 - hashids
 
+After cloning the code, run following commands
+
+- rm -rf short_url.txt
+- python3 init_db.py
+- export FLASK_APP=app
+- export FLASK_ENV=development
+- flask run
+
 
